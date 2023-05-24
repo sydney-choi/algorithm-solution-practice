@@ -1,7 +1,7 @@
 function solution(my_string, letter) {
     var answer = '';
-    const array = my_string.split("");
-    answer = array.filter(item => item !== letter).join("");
+    const array = my_string.split('');
+    answer = array.filter(item => item !== letter).join('');
     return answer;
 }
 
