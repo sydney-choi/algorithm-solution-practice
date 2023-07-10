@@ -4,7 +4,7 @@ function solution(numbers, direction) {
         case "right":
             const rNum = numbers[numbers.length - 1];
             numbers.pop();
-            numbers.unshift(rNum)
+            numbers.unshift(rNum);
             answer = numbers;
             break;
         case "left":
